@@ -36,20 +36,20 @@
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" href="rooms.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rooms</a>
+                <a class="nav-link active" href="{% url 'rooms'%}">Rooms</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="{% url 'blog'%}">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="about.html">About</a>
+                <a class="nav-link" href="{% url 'about'%}">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="{% url 'contact'%}">Contact</a>
               </li>
 
                <li class="nav-item cta">
-                <a class="nav-link" href="booknow.html"><span>Book Now</span></a>
+                <a class="nav-link" href="{% url 'booknow'%}"><span>Book Now</span></a>
               </li>
             </ul>
             
